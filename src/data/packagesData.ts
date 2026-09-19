@@ -4,7 +4,7 @@ export const PACKAGES_DATA: UmrahPackage[] = [
   {
     id: 'pkg-makassar-direct-12d',
     slug: 'umrah-reguler-12-hari-direct-makassar',
-    name: 'Paket Umrah Khidmat 12 Hari (Direct Flight Makassar)',
+    name: 'Umrah 12 Hari — Berangkat Langsung dari Makassar',
     durationDays: 12,
     priceEstimateDisplay: 'Rp 32.800.000',
     priceEstimateNumber: 32800000,
@@ -48,12 +48,12 @@ export const PACKAGES_DATA: UmrahPackage[] = [
     suitableFor: ['Keluarga', 'Calon jamaah lansia', 'Jamaah pertama kali'],
     isElderlyFriendly: true,
     category: 'Ramah Lansia',
-    overview: 'Dirancang khusus bagi calon jamaah dari berbagai daerah di Sulawesi yang mengutamakan kenyamanan perjalanan melalui penerbangan langsung dari Bandara Internasional Sultan Hasanuddin Makassar. Memangkas waktu transit sehingga stamina fisik jamaah tetap prima saat mulai melaksanakan rangkaian rukun Umrah.'
+    overview: 'Cocok buat yang ingin perjalanan lebih sederhana dari awal. Berangkat dari Makassar dan tidak perlu transit di Jakarta, jadi waktu di perjalanan bisa lebih singkat.'
   },
   {
     id: 'pkg-palu-connecting-13d',
     slug: 'umrah-keluarga-13-hari-transit-efisien-palu-sulteng',
-    name: 'Paket Umrah Barakah 13 Hari (Konektivitas Palu & Sulteng)',
+    name: 'Umrah 13 Hari — Berangkat dari Palu dan Sekitarnya',
     durationDays: 13,
     priceEstimateDisplay: 'Rp 34.500.000',
     priceEstimateNumber: 34500000,
@@ -97,12 +97,12 @@ export const PACKAGES_DATA: UmrahPackage[] = [
     suitableFor: ['Keluarga dengan anak', 'Pasangan suami istri', 'Jamaah yang membutuhkan akses hotel terdekat'],
     isElderlyFriendly: true,
     category: 'Eksekutif',
-    overview: 'Pilihan ideal bagi masyarakat Sulawesi Tengah (Palu, Donggala, Luwuk, Poso, Tolitoli) yang membutuhkan paket dengan tiket terusan terkoordinasi rapi. Menghilangkan kerumitan mengurus bagasi transit mandiri dengan standar akomodasi hotel bintang lima di depan pintu gerbang Haram.'
+    overview: 'Buat yang berangkat dari Palu dan sekitarnya, pilihan ini dibuat supaya urusan tiket dan bagasi lebih gampang. Transit tetap ada, tapi alurnya sudah disiapkan dari awal.'
   },
   {
     id: 'pkg-lansia-vip-14d',
     slug: 'umrah-ramah-lansia-14-hari-pendampingan-khusus',
-    name: 'Paket Umrah Rida Orang Tua 14 Hari (Spesialisasi Ramah Lansia)',
+    name: 'Umrah 14 Hari — Lebih Nyaman untuk Orang Tua',
     durationDays: 14,
     priceEstimateDisplay: 'Rp 36.900.000',
     priceEstimateNumber: 36900000,
@@ -146,12 +146,12 @@ export const PACKAGES_DATA: UmrahPackage[] = [
     suitableFor: ['Jamaah lanjut usia', 'Orang tua pengguna kursi roda', 'Keluarga pendamping'],
     isElderlyFriendly: true,
     category: 'Ramah Lansia',
-    overview: 'Memberangkatkan orang tua adalah ikhtiar mulia yang membutuhkan kehati-hatian ekstra. Paket ini dirancang dari hulu ke hilir dengan mempertimbangkan keterbatasan stamina, jarak jalan kaki, kemudahan lift hotel, ketersediaan kursi roda resmi di Masjidil Haram, dan tempo ziarah yang tidak menguras tenaga.'
+    overview: 'Kalau berangkat bersama orang tua, hal kecil seperti jarak hotel, lift, waktu istirahat, dan akses kursi roda bisa sangat berarti. Paket ini dibuat untuk keluarga yang ingin perjalanan lebih santai dan tidak terburu-buru.'
   },
   {
     id: 'pkg-ekonomis-terencana-09d',
     slug: 'umrah-awal-musim-09-hari-syiar-sulawesi',
-    name: 'Paket Umrah Ta’aruf 09 Hari (Fokus Ibadah & Terjangkau Terencana)',
+    name: 'Umrah 9 Hari — Buat yang Waktunya Terbatas',
     durationDays: 9,
     priceEstimateDisplay: 'Rp 28.700.000',
     priceEstimateNumber: 28700000,
@@ -194,12 +194,12 @@ export const PACKAGES_DATA: UmrahPackage[] = [
     suitableFor: ['Jamaah usia produktif', 'Calon jamaah budget terencana', 'Pasangan muda'],
     isElderlyFriendly: false,
     category: 'Reguler',
-    overview: 'Pilihan hemat dan efisien bagi calon jamaah yang memiliki waktu libur terbatas (9 hari) namun tetap menghendaki standar pelayanan resmi dari PPIU berizin. Mengutamakan kekhusyukan ibadah dengan tata kelola anggaran yang proporsional dan jelas.'
+    overview: 'Cuma punya waktu sekitar 9 hari? Pilihan ini lebih ringkas buat yang ingin fokus ibadah tanpa perlu mengambil cuti terlalu panjang.'
   },
   {
     id: 'pkg-plus-turki-16d',
     slug: 'umrah-plus-turki-istanbul-bursa-16-hari',
-    name: 'Paket Umrah Plus Jelajah Sejarah 16 Hari (Makkah, Madinah & Turki/Thaif)',
+    name: 'Umrah + Turki 16 Hari — Ibadah Sekalian Jelajah Sejarah',
     durationDays: 16,
     priceEstimateDisplay: 'Rp 41.500.000',
     priceEstimateNumber: 41500000,
@@ -242,6 +242,6 @@ export const PACKAGES_DATA: UmrahPackage[] = [
     suitableFor: ['Keluarga besar', 'Pecinta sejarah Islam', 'Pemberangkatan milad / hadiah pernikahan'],
     isElderlyFriendly: false,
     category: 'Bisnis',
-    overview: 'Paket komprehensif bagi jamaah asal Sulawesi yang ingin memadukan ibadah rukun Umrah di dua kota suci dengan perjalanan napak tilas kejayaan peradaban Islam di Istanbul Turki dan kesejukan lembah Thaif.'
+    overview: 'Setelah Makkah dan Madinah, perjalanan dilanjutkan ke Turki. Cocok buat yang ingin sekalian melihat tempat-tempat bersejarah sambil menikmati perjalanan yang lebih panjang.'
   }
 ];
