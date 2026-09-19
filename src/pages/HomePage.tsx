@@ -187,17 +187,17 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="inline-flex items-center gap-2 bg-[#141A26]/85 backdrop-blur-md border border-[#2E3A4E] px-4 py-1.5 sm:py-2 rounded-full mb-6 shadow-xl">
             <span className="w-2 h-2 rounded-full bg-[#E2F827] animate-pulse" />
             <span className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-gray-200 font-semibold">
-              UMRAH DARI SULAWESI, NGOBROL LANGSUNG DENGAN AJI
+              BERANGKAT DARI SULAWESI?
             </span>
           </div>
 
           {/* Majestic Hero Headline */}
           <h1 className="font-extrabold text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-[90px] tracking-tight leading-[1.08] text-white">
-            Dari Sulawesi ke Tanah Suci, <span className="text-[#E2F827] drop-shadow-[0_0_35px_rgba(226,248,39,0.3)]">kita siapkan bareng.</span>
+            Dari Sulawesi ke Tanah Suci. <span className="text-[#E2F827] drop-shadow-[0_0_35px_rgba(226,248,39,0.3)]">Kita atur bareng.</span>
           </h1>
 
           <p className="mt-5 sm:mt-6 text-sm sm:text-base md:text-xl text-gray-200 font-light max-w-2xl mx-auto leading-relaxed drop-shadow px-2">
-            Berangkat dari mana pun di Sulawesi, ceritakan saja rencananya. Saya bantu cek rute, transit, hotel, dan pilihan paketnya—termasuk kalau Anda membawa orang tua.
+            Mau berangkat dari Palu, Makassar, Manado, atau kota lain di Sulawesi? Ceritakan saja. Saya bantu lihat rute, transit, hotel, dan paketnya—termasuk kalau Anda membawa orang tua.
           </p>
 
           {/* Fast Navigation Quick Links */}
@@ -234,9 +234,9 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="text-[11px] font-semibold uppercase tracking-widest text-gray-300 mb-4 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Search className="w-3.5 h-3.5 text-[#E2F827]" />
-                <span>Mau cari yang cocok?</span>
+                <span>Mau lihat yang mana?</span>
               </div>
-              <span className="text-[10px] text-gray-400 hidden sm:inline">Pilih sesuai rencana berangkat Anda</span>
+              <span className="text-[10px] text-gray-400 hidden sm:inline">Pilih yang paling dekat dengan rencana Anda</span>
             </div>
 
             <form onSubmit={handleSearchSubmit} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -349,7 +349,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 Tidak semua jamaah butuh <span className="text-[#E2F827]">paket yang sama.</span>
               </h2>
               <p className="text-sm sm:text-base text-gray-300 font-light mt-2 max-w-xl">
-                Ada yang ingin perjalanan singkat, ada yang membawa orang tua, ada juga yang berangkat sekeluarga. Pilih yang paling dekat dengan rencana Anda, lalu kita bahas sisanya.
+                Ada yang cuma punya waktu 9 hari. Ada yang membawa orang tua. Ada juga yang berangkat ramai-ramai. Lihat dulu yang paling dekat dengan kondisi Anda.
               </p>
             </div>
             
@@ -535,7 +535,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E2F827]">
                 <span>◆</span>
-                <span>Saya ingin semuanya jelas dari awal.</span>
+                <span>BIAR ENAK, KITA BAHAS DARI AWAL.</span>
               </div>
 
               <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
@@ -543,7 +543,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h2>
 
               <p className="text-base sm:text-lg text-gray-300 font-light leading-relaxed">
-                Berangkat dari Palu tentu beda dengan dari Makassar, Manado, Kendari, atau kota lainnya. Kita lihat dari bandara asal, waktu transit, hotel, sampai siapa saja yang ikut.
+                Berangkat dari Palu tentu beda dengan dari Makassar, Manado, Kendari, atau kota lainnya. Kita lihat satu-satu: dari bandara asal, waktu transit, hotel, sampai siapa saja yang ikut.
               </p>
 
               {/* 3 Metric Badges */}
