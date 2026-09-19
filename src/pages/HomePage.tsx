@@ -76,7 +76,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       pkg: PACKAGES_DATA[0],
       price: 'Rp 32,8 Jt',
       period: 'per jamaah',
-      rating: 'Utamakan',
+      rating: '4.9/5',
       reviewsCount: '1,200+',
       timeline: 'Berangkat langsung dari UPG',
       services: [
@@ -112,7 +112,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       pkg: PACKAGES_DATA[1] || PACKAGES_DATA[0],
       price: 'Rp 34,5 Jt',
       period: 'per jamaah',
-      rating: 'Utamakan',
+      rating: '4.9/5',
       reviewsCount: '920+',
       timeline: 'Pas untuk keluarga kecil',
       services: [
