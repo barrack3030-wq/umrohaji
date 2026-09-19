@@ -49,7 +49,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       packageUsed: 'Paket Umrah Reguler Makassar Connecting',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
       rating: 5,
-      quote: 'Melaksanakan Umrah bersama tim Aji Zulfikar dan mitra PPIU resmi sungguh menenangkan. Setiap detail perjalanan diperhatikan dengan cermat, mulai dari tiket connecting flight Palu–Makassar hingga hotel yang benar-benar di depan pelataran Masjidil Haram.'
+      quote: 'Awalnya kami paling kepikiran soal perjalanan dari Palu. Setelah rute dan transitnya dibahas dari awal, rasanya jauh lebih tenang. Hotelnya juga sesuai dengan yang kami bicarakan.'
     },
     {
       name: 'dr. H. Andi Syahrul',
@@ -57,7 +57,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       packageUsed: 'Paket Umrah Khusus Untuk Orang Tua',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
       rating: 5,
-      quote: 'Saya membawa ibunda yang berusia 74 tahun. Program Ring 1 pelataran dan asistensi kursi roda yang disiapkan Mas Aji dan PPIU mitra sangat membantu. Ibu tidak kelelahan dan kami sholat 5 waktu di masjid tanpa kendala.'
+      quote: 'Saya berangkat sama ibu yang sudah 74 tahun. Yang paling membantu itu hotelnya dekat dan urusan kursi roda sudah dibicarakan dari awal. Ibu jadi tidak terlalu capek.'
     },
     {
       name: 'H. Muh. Ridwan & Keluarga',
@@ -65,7 +65,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       packageUsed: 'Paket Umrah Keluarga 13 Hari',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80',
       rating: 5,
-      quote: 'Transparansi akadnya luar biasa. Tidak ada biaya tersembunyi. Izin PPIU di SISKOPATUH dicek di awal, nama hotel sesuai kesepakatan, dan muthawwif membimbing manasik dengan sangat santun.'
+      quote: 'Dari awal kami minta semuanya jelas. Nama PPIU, hotel, sampai pembayarannya dijelaskan. Jadi sebelum berangkat kami sudah tahu apa saja yang kami dapat.'
     }
   ];
 
@@ -78,14 +78,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       period: 'per jamaah',
       rating: 'Utamakan',
       reviewsCount: '1,200+',
-      timeline: 'Penerbangan Langsung UPG - JED/MED',
+      timeline: 'Berangkat langsung dari UPG',
       services: [
-        'Penerbangan Langsung Makassar (UPG) – Saudi tanpa transit Jakarta',
+        'Berangkat langsung dari Makassar ke Saudi',
         'Akomodasi Bintang 4 Ring 1 (150m ke Pelataran Masjidil Haram)',
-        'Visa Umrah Resmi, Asuransi Perjalanan, & SISKOPATUH Kemenag RI',
-        'Bimbingan Ibadah & Muthawwif Berpengalaman asal Indonesia',
-        'Handling Bandara Sultan Hasanuddin & Fasilitas Lounge Transit',
-        'Makan 3x Sehari Menu Cita Rasa Nusantara & Air Zamzam Resmi'
+        'Visa, asuransi, dan proses administrasi yang diperlukan',
+        'Ada muthawwif yang mendampingi perjalanan ibadah',
+        'Bantuan saat proses keberangkatan dari Makassar',
+        'Makan 3 kali sehari dengan menu Indonesia'
       ]
     },
     {
@@ -96,14 +96,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       period: 'per jamaah',
       rating: '5.0/5',
       reviewsCount: '850+',
-      timeline: 'Khusus Orang Tua & Keluarga Pendamping',
+      timeline: 'Cocok untuk orang tua dan keluarga yang ikut',
       services: [
-        'Hotel Pelataran Ring 1 (0–50 meter tanpa jalan menanjak)',
-        'Fasilitas Kursi Roda Resmi & Pemandu Tawaf/Sai Khusus',
-        'Ritme Ibadah Tenang, Tidak Memaksakan Fisik Jamaah Senior',
-        'Pemberhentian Istirahat Nyaman saat Transit Bandara',
-        'Menu Makanan Lembut & Ramah Pencernaan Lansia',
-        'Dokter Rombongan Standby 24 Jam Selama di Makkah & Madinah'
+        'Hotel dekat area masjid, supaya jalan kaki tidak terlalu jauh',
+        'Bantuan kursi roda dan pendampingan tawaf/sai sesuai kebutuhan',
+        'Jadwal dibuat lebih santai untuk orang tua',
+        'Ada waktu istirahat saat transit',
+        'Pilihan makanan yang lebih mudah untuk orang tua',
+        'Dokter rombongan tersedia selama di Makkah dan Madinah'
       ]
     },
     {
@@ -114,14 +114,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       period: 'per jamaah',
       rating: 'Utamakan',
       reviewsCount: '920+',
-      timeline: 'Ideal untuk 3–6 Anggota Rombongan',
+      timeline: 'Pas untuk keluarga kecil',
       services: [
-        'Koneksi Tiket Terpadu dari Palu / Kendari / Manado / Gorontalo ke UPG',
-        'Alokasi Kamar Quad / Family Room dalam 1 Lantai Hotel',
-        'Ziarah Sejarah Islam Edukatif di Makkah, Madinah, & Thaif',
-        'Transportasi Bus Eksekutif VIP ber-AC Full Selama di Saudi',
-        'Handling Bagasi Door-to-Door sejak Bandara Asal Sulawesi',
-        'Konsultasi Manasik Privat untuk Keluarga sebelum Keberangkatan'
+        'Tiket dari kota asal disambungkan sampai rute berikutnya',
+        'Pilihan kamar untuk keluarga sesuai ketersediaan',
+        'Ada waktu untuk ziarah tempat-tempat bersejarah',
+        'Bus ber-AC untuk perpindahan selama di Saudi',
+        'Urusan bagasi dibantu sejak dari bandara asal',
+        'Manasik bisa dibicarakan khusus sebelum berangkat'
       ]
     },
     {
@@ -132,14 +132,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       period: 'per jamaah',
       rating: '5.0/5',
       reviewsCount: '450+',
-      timeline: 'Spesial 10 Malam Terakhir & Idul Fitri',
+      timeline: 'Khusus program akhir Ramadhan',
       services: [
-        'Program Itikaf 10 Malam Terakhir di Masjidil Haram Makkah',
-        'Akomodasi Menara Jam / Dar Al Eiman Royal (Akses Langsung)',
-        'Penyediaan Sahur & Iftar Prasmanan Istimewa di Hotel',
-        'Penerbangan Terjadwal untuk Mengikuti Sholat Idul Fitri di Makkah',
-        'Akses Bimbingan Doa Khusus Khatam Al-Quran & Lailatul Qadr',
-        'Pendampingan Ziarah Badar & Jabal Rahmah'
+        'Program khusus untuk 10 malam terakhir Ramadhan',
+        'Pilihan hotel dekat area Masjidil Haram',
+        'Sahur dan berbuka disiapkan di hotel',
+        'Jadwal penerbangan disusun mengikuti program Ramadhan',
+        'Ada sesi bimbingan doa selama program',
+        'Ziarah Badar dan Jabal Rahmah sesuai jadwal'
       ]
     }
   ];
