@@ -23,7 +23,7 @@ export const FloatingWhatsAppBar: React.FC<FloatingWhatsAppBarProps> = ({
             className="flex-1 py-3 px-4 bg-[#E2F827] hover:bg-[#D4F636] text-black text-xs uppercase tracking-wider font-semibold rounded-full flex items-center justify-center gap-2 cursor-pointer shadow-lg transition-all active:scale-[0.98]"
           >
             <MessageSquare className="w-3.5 h-3.5 text-black" />
-            <span>Konsultasi Umrah</span>
+            <span>Chat Aji</span>
             <ArrowUpRight className="w-3.5 h-3.5 text-black" />
           </button>
           <a
@@ -31,7 +31,7 @@ export const FloatingWhatsAppBar: React.FC<FloatingWhatsAppBarProps> = ({
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-[#14161A] text-white hover:text-[#E2F827] border border-[#232730] rounded-full flex items-center justify-center transition-colors"
-            title="Chat WhatsApp Langsung"
+            title="Chat Aji di WhatsApp"
           >
             <ArrowUpRight className="w-4 h-4" />
           </a>
@@ -52,7 +52,7 @@ export const FloatingWhatsAppBar: React.FC<FloatingWhatsAppBarProps> = ({
               Aji Zulfikar
             </div>
             <div className="text-xs font-semibold text-white mt-1 flex items-center gap-1">
-              <span>Konsultasi WhatsApp</span>
+              <span>Ngobrol soal Umrah</span>
               <ArrowUpRight className="w-3 h-3 text-gray-400 group-hover:text-[#E2F827] transition-colors" />
             </div>
           </div>
