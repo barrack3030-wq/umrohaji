@@ -26,20 +26,20 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenConsultation }
         {/* Giant Hero CTA: Mari Bicara */}
         <div className="text-center py-10 sm:py-16">
           <p className="text-[11px] sm:text-xs uppercase tracking-[0.25em] text-[#E2F827] font-semibold mb-4">
-            PUNYA RENCANA UMRAH?
+            MAU UMRAH DARI SULAWESI?
           </p>
           
           <button
             onClick={onOpenConsultation}
             className="group inline-flex flex-wrap items-center justify-center font-bold text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-[130px] tracking-tighter leading-none hover:scale-[1.02] transition-transform duration-300 cursor-pointer gap-x-2 gap-y-1"
           >
-            <span className="text-white group-hover:text-gray-200 transition-colors">Ceritakan </span>
-            <span className="text-[#E2F827] group-hover:underline decoration-4 underline-offset-8">Rencana Anda</span>
+            <span className="text-white group-hover:text-gray-200 transition-colors">Ngobrol </span>
+            <span className="text-[#E2F827] group-hover:underline decoration-4 underline-offset-8">Dulu</span>
             <ArrowUpRight className="w-8 h-8 xs:w-10 xs:h-10 sm:w-16 sm:h-16 lg:w-24 lg:h-24 text-[#E2F827] group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 shrink-0" />
           </button>
 
           <p className="mt-5 text-xs sm:text-base text-gray-300 max-w-xl mx-auto font-light leading-relaxed px-2">
-            Ceritakan dari mana Anda akan berangkat, kapan kira-kira berangkat, dan siapa yang ikut. Kita bicarakan rute dan kebutuhan perjalanan Anda.
+            Sebutkan Anda berangkat dari kota mana, kira-kira kapan, dan siapa yang ikut. Saya bantu lihat rute, transit, hotel, dan pilihan yang masuk akal untuk perjalanan Anda.
           </p>
 
           <div className="mt-7 flex flex-col xs:flex-row items-center justify-center gap-3 sm:gap-4 w-full max-w-md mx-auto">
@@ -47,14 +47,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenConsultation }
               onClick={onOpenConsultation}
               className="w-full xs:w-auto flex items-center justify-center gap-2 bg-[#E2F827] hover:bg-[#D4F636] text-black font-semibold text-xs uppercase tracking-wider px-7 py-3.5 rounded-full shadow-lg hover:shadow-[#E2F827]/25 transition-all duration-300 cursor-pointer min-h-[44px]"
             >
-              <span>Obrolkan Rencana Anda</span>
+              <span>Chat Aji di WhatsApp</span>
               <ArrowUpRight className="w-4 h-4" />
             </button>
             <button
               onClick={() => handleNav('/paket-umrah')}
               className="w-full xs:w-auto flex items-center justify-center gap-2 bg-[#14161A] hover:bg-[#1C1F26] text-white border border-[#2B2E36] font-medium text-xs uppercase tracking-wider px-6 py-3.5 rounded-full transition-all duration-300 cursor-pointer min-h-[44px]"
             >
-              <span>Lihat Pilihan Umrah</span>
+              <span>Lihat Paket Umrah</span>
             </button>
           </div>
         </div>
