@@ -163,7 +163,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         {/* The Holy Ka'bah Photo at Masjidil Haram, Makkah */}
         <img
-          src="/kaaba_tawaf.jpg"
+          src={`${import.meta.env.BASE_URL}kaaba_tawaf.jpg`}
           alt="Ka'bah Suci Masjidil Haram Makkah"
           className="w-full h-full object-cover object-center opacity-45 sm:opacity-50 filter brightness-95 contrast-110"
         />
