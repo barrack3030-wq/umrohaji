@@ -1,0 +1,7 @@
+{
+  "name": "Aji Zulfikar – Umrah Sulawesi",
+  "description": "Pusat informasi, panduan persiapan, dan konsultasi paket Umrah mitra PPIU resmi khusus jamaah dari Sulawesi bersama Aji Zulfikar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
