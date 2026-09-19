@@ -54,7 +54,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     {
       name: 'dr. H. Andi Syahrul',
       location: 'Makassar, Sulawesi Selatan',
-      packageUsed: 'Paket Umrah Khusus Ramah Lansia Ring 1',
+      packageUsed: 'Paket Umrah Khusus Untuk Orang Tua',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
       rating: 5,
       quote: 'Saya membawa ibunda yang berusia 74 tahun. Program Ring 1 pelataran dan asistensi kursi roda yang disiapkan Mas Aji dan PPIU mitra sangat membantu. Ibu tidak kelelahan dan kami sholat 5 waktu di masjid tanpa kendala.'
@@ -76,7 +76,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       pkg: PACKAGES_DATA[0],
       price: 'Rp 32,8 Jt',
       period: 'per jamaah',
-      rating: '4.9/5',
+      rating: 'Utamakan',
       reviewsCount: '1,200+',
       timeline: 'Penerbangan Langsung UPG - JED/MED',
       services: [
@@ -90,7 +90,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     },
     {
       id: 'lansia',
-      tabTitle: 'Ramah Lansia Ring 1',
+      tabTitle: 'Untuk Orang Tua',
       pkg: PACKAGES_DATA[2] || PACKAGES_DATA[0],
       price: 'Rp 36,8 Jt',
       period: 'per jamaah',
@@ -112,7 +112,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       pkg: PACKAGES_DATA[1] || PACKAGES_DATA[0],
       price: 'Rp 34,5 Jt',
       period: 'per jamaah',
-      rating: '4.9/5',
+      rating: 'Utamakan',
       reviewsCount: '920+',
       timeline: 'Ideal untuk 3–6 Anggota Rombongan',
       services: [
@@ -187,39 +187,39 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="inline-flex items-center gap-2 bg-[#141A26]/85 backdrop-blur-md border border-[#2E3A4E] px-4 py-1.5 sm:py-2 rounded-full mb-6 shadow-xl">
             <span className="w-2 h-2 rounded-full bg-[#E2F827] animate-pulse" />
             <span className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-gray-200 font-semibold">
-              KEMITRAAN RESMI PPIU TERDAFTAR SISKOPATUH KEMENAG RI
+              PENDAMPINGAN UMRAH UNTUK JAMAAH DARI SULAWESI
             </span>
           </div>
 
           {/* Majestic Hero Headline */}
           <h1 className="font-extrabold text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-[90px] tracking-tight leading-[1.08] text-white">
-            Ibadah <span className="text-[#E2F827] drop-shadow-[0_0_35px_rgba(226,248,39,0.3)]">Umrah</span>
+            Berangkat dari Sulawesi. <span className="text-[#E2F827] drop-shadow-[0_0_35px_rgba(226,248,39,0.3)]">Tenang Beribadah.</span>
           </h1>
 
           <p className="mt-5 sm:mt-6 text-sm sm:text-base md:text-xl text-gray-200 font-light max-w-2xl mx-auto leading-relaxed drop-shadow px-2">
-            Panduan personal, penerbangan langsung dari bandara di Sulawesi, dan akomodasi hotel pelataran Masjidil Haram bersama Aji Zulfikar.
+            Bukan sekadar memilih paket. Kita mulai dari kota asal, kondisi jamaah, dan cara perjalanan yang paling masuk akal untuk sampai ke Tanah Suci dengan tenang.
           </p>
 
           {/* Fast Navigation Quick Links */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs">
-            <span className="text-gray-400 font-medium">Jelajahi:</span>
+            <span className="text-gray-400 font-medium">Mulai dari kebutuhan Anda:</span>
             <button 
               onClick={() => onNavigate('/paket-umrah')}
               className="bg-[#18202D]/85 hover:bg-[#222C3E] text-white border border-[#2F3C50] px-3.5 py-1.5 rounded-full transition-colors cursor-pointer"
             >
-              Direct Makassar (UPG)
+              Berangkat dari Makassar
             </button>
             <button 
               onClick={() => onNavigate('/umrah-lansia')}
               className="bg-[#18202D]/85 hover:bg-[#222C3E] text-[#E2F827] border border-[#2F3C50] px-3.5 py-1.5 rounded-full transition-colors cursor-pointer"
             >
-              Ramah Lansia Ring 1
+              Untuk Orang Tua
             </button>
             <button 
               onClick={() => onNavigate('/umrah-dari-sulawesi')}
               className="bg-[#18202D]/85 hover:bg-[#222C3E] text-white border border-[#2F3C50] px-3.5 py-1.5 rounded-full transition-colors cursor-pointer"
             >
-              Rute 6 Provinsi Sulawesi
+              Jelajahi Rute Sulawesi
             </button>
           </div>
         </div>
@@ -234,9 +234,9 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="text-[11px] font-semibold uppercase tracking-widest text-gray-300 mb-4 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Search className="w-3.5 h-3.5 text-[#E2F827]" />
-                <span>Cari Jadwal & Estimasi Biaya</span>
+                <span>Tentukan Rute & Kebutuhan</span>
               </div>
-              <span className="text-[10px] text-gray-400 hidden sm:inline">Transparansi Biaya & Legalitas Terjamin</span>
+              <span className="text-[10px] text-gray-400 hidden sm:inline">Bandingkan sesuai kebutuhan jamaah</span>
             </div>
 
             <form onSubmit={handleSearchSubmit} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -292,7 +292,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 >
                   <option value="Semua Paket" className="bg-[#141A24] text-white">Semua Paket</option>
                   <option value="Reguler Direct" className="bg-[#141A24] text-white">Reguler Direct</option>
-                  <option value="Ramah Lansia Ring 1" className="bg-[#141A24] text-white">Ramah Lansia Ring 1</option>
+                  <option value="Untuk Orang Tua" className="bg-[#141A24] text-white">Untuk Orang Tua</option>
                   <option value="Keluarga Sulawesi" className="bg-[#141A24] text-white">Keluarga Sulawesi</option>
                   <option value="Ramadhan 16 Hari" className="bg-[#141A24] text-white">Ramadhan 16 Hari</option>
                 </select>
@@ -340,16 +340,16 @@ export const HomePage: React.FC<HomePageProps> = ({
           
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E2F827] mb-3">
             <span>◆</span>
-            <span>Katalog Pilihan Paket</span>
+            <span>RUTE, RITME & KEBUTUHAN JAMAAH</span>
           </div>
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 sm:mb-12">
             <div>
               <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
-                Pilihan <span className="text-[#E2F827]">Paket Umrah</span> Terverifikasi
+                Umrah yang Disusun dari <span className="text-[#E2F827]">Kebutuhan Anda</span>
               </h2>
               <p className="text-sm sm:text-base text-gray-300 font-light mt-2 max-w-xl">
-                Paket resmi dengan maskapai penerbangan terpercaya dan akomodasi hotel ring 1 terdekat dari Masjidil Haram.
+                Setiap jamaah berangkat dari kondisi yang berbeda. Karena itu, pilihan rute, penerbangan, hotel, dan ritme perjalanan perlu dilihat bersama—bukan hanya dari angka harga.
               </p>
             </div>
             
@@ -380,7 +380,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <div>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-xs uppercase tracking-widest text-[#E2F827] font-semibold">
-                      Fasilitas Sudah Termasuk
+                      Yang Anda Dapatkan dalam Perjalanan
                     </span>
                   </div>
 
@@ -535,30 +535,30 @@ export const HomePage: React.FC<HomePageProps> = ({
               
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E2F827]">
                 <span>◆</span>
-                <span>Konsultan Umrah Terpercaya</span>
+                <span>Pendampingan yang Berangkat dari Kebutuhan Jamaah</span>
               </div>
 
               <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-tight">
-                Mengapa Memilih <span className="text-[#E2F827]">Aji Zulfikar</span>?
+                Kenapa Saya Memulai dari <span className="text-[#E2F827]">Jamaah</span>, Bukan dari Paket?
               </h2>
 
               <p className="text-base sm:text-lg text-gray-300 font-light leading-relaxed">
-                Sebagai representasi dan konsultan kemitraan PPIU resmi berizin Kementerian Agama RI di Sulawesi, kami memastikan setiap calon jamaah mendapatkan kepastian jadwal, akomodasi nyata, dan pendampingan personal penuh empati.
+                Saya membantu jamaah dari Sulawesi memahami pilihan perjalanan sebelum mengambil keputusan: dari kota keberangkatan, koneksi penerbangan, kebutuhan pendamping, sampai hotel yang sesuai dengan ritme ibadah keluarga.
               </p>
 
               {/* 3 Metric Badges */}
               <div className="grid grid-cols-3 gap-3 sm:gap-4 pt-2">
                 <div className="bg-[#141A26] border border-[#293548] p-4 rounded-2xl text-center">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-[#E2F827]">3.000+</div>
-                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Jamaah Sulawesi</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-[#E2F827]">Mulai dari</div>
+                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Kota Asal Sulawesi</div>
                 </div>
                 <div className="bg-[#141A26] border border-[#293548] p-4 rounded-2xl text-center">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-white">100%</div>
-                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Izin Kemenag</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-white">Fokus pada</div>
+                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Kejelasan Legalitas</div>
                 </div>
                 <div className="bg-[#141A26] border border-[#293548] p-4 rounded-2xl text-center">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-[#E2F827]">4.9/5</div>
-                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Rating Kepuasan</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-[#E2F827]">Utamakan</div>
+                  <div className="text-[11px] text-gray-400 mt-1 font-medium">Kenyamanan Jamaah</div>
                 </div>
               </div>
 
@@ -569,9 +569,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <Award className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-white">Mitra Resmi PPIU Terdaftar SISKOPATUH</h4>
+                    <h4 className="text-sm font-semibold text-white">Perjalanan Melalui PPIU yang Resmi</h4>
                     <p className="text-xs text-gray-400 font-light leading-relaxed">
-                      Legalitas jelas, nomor izin travel terdaftar di aplikasi resmi Umrah Cerdas Kemenag RI.
+                      Sebelum membayar, pastikan nama PPIU, visa, hotel, biaya, jadwal, dan perjanjian perjalanan dapat dijelaskan dengan jelas.
                     </p>
                   </div>
                 </div>
@@ -581,9 +581,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <Users className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-white">Spesialisasi Rute Penerbangan Sulawesi</h4>
+                    <h4 className="text-sm font-semibold text-white">Memahami Perjalanan dari Sulawesi</h4>
                     <p className="text-xs text-gray-400 font-light leading-relaxed">
-                      Paham rute transit Makassar, Palu, Kendari, Manado, dan Gorontalo sehingga minim lelah fisik.
+                      Kita melihat perjalanan sejak meninggalkan kota asal—termasuk pilihan koneksi menuju Makassar dan kebutuhan jamaah selama transit.
                     </p>
                   </div>
                 </div>
@@ -593,9 +593,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <Building2 className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-white">Kepastian Hotel Pelataran Ring 1</h4>
+                    <h4 className="text-sm font-semibold text-white">Hotel yang Jelas Sebelum Berangkat</h4>
                     <p className="text-xs text-gray-400 font-light leading-relaxed">
-                      Nama hotel tertulis jelas di kontrak akad sebelum pelunasan, jarak dekat dan tanpa tanjakan.
+                      Detail hotel sebaiknya sudah jelas sebelum keberangkatan: nama, lokasi, dan kondisi akses menuju area Masjidil Haram.
                     </p>
                   </div>
                 </div>
@@ -616,7 +616,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                     ))}
                   </div>
                   <span className="text-[10px] uppercase tracking-wider text-gray-400 bg-[#1A2230] px-2.5 py-1 rounded-full border border-[#2B374A]">
-                    Ulasan Nyata Jamaah
+                    Cerita dari Perjalanan Jamaah
                   </span>
                 </div>
 
@@ -669,10 +669,10 @@ export const HomePage: React.FC<HomePageProps> = ({
               <div className="bg-gradient-to-br from-[#18212F] to-[#121824] border border-[#2E3B50] rounded-3xl p-6 sm:p-8 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6">
                 <div className="space-y-1 text-center sm:text-left">
                   <h3 className="text-lg sm:text-xl font-bold text-white">
-                    Siap Merencanakan Ibadah Anda?
+                    Sudah Tahu Ingin Berangkat dari Mana?
                   </h3>
                   <p className="text-xs text-gray-300 font-light max-w-sm">
-                    Tanyakan ketersediaan seat, tanggal keberangkatan, atau konsultasi hotel khusus lansia via WhatsApp.
+                    Kirim kota asal, perkiraan waktu berangkat, dan siapa saja yang ikut. Dari situ kita bisa membahas rute dan kebutuhan perjalanan Anda.
                   </p>
                 </div>
 
@@ -680,7 +680,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   onClick={() => onOpenConsultation()}
                   className="w-full sm:w-auto px-7 py-3.5 bg-[#E2F827] hover:bg-[#D4F636] text-black text-xs uppercase tracking-wider font-semibold rounded-full transition-all cursor-pointer whitespace-nowrap shadow-lg hover:shadow-[#E2F827]/25 min-h-[44px] flex items-center justify-center gap-2 shrink-0"
                 >
-                  <span>Konsultasi Gratis</span>
+                  <span>Bicarakan Rute Anda</span>
                   <ArrowUpRight className="w-4 h-4 text-black" />
                 </button>
               </div>
